@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter;
+    background:#6943FF;
+}
+
+#input-value{
+    text-align: center;
+    font-size: 50px;
+    width:90px;
+    margin-bottom:15px;
+    border: 2px solid #B295FF;  
+    border-radius: 5px;
+    background: #6943FF;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#btn-convert{
+    width: 100px;
+    padding:8px 5px;
+    font-family: Inter;
+    border: none;
+    border-radius:5px;
+    margin-bottom: 30px;
+    margin-top:5px; 
+    font-size:15px;
+}
+
+.result-bg{
+    background:#E5E7EB;;
+    padding-top:5px;
+    padding-bottom: 20px;
+}
+
+.show-result{
+    margin:30px 20px 10px 20px;
+
+
+}
+
+.show-result h3{
+    color: #5A537B;
+}
+
+#length , #volume , #mass{
+    height:80px;
+    background: white;
+    padding:10px;
+    margin-top:20px; 
+}
+
+.result{
+    font-size: 5px;
+    font-family: Inter;
+}
